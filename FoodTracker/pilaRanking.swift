@@ -1,10 +1,4 @@
-//
-//  pilaRanking.swift
-//  FoodTracker
-//
-//  Created by Vicente Castillo on 17-05-19.
-//  Copyright © 2019 Apple Inc. All rights reserved.
-//
+
 
 import UIKit
 

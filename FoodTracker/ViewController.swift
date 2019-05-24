@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  FoodTracker
-//
-//  Created by Jane Appleseed on 10/17/16.
-//  Copyright © 2016 Apple Inc. All rights reserved.
-//
 
 import UIKit
 
@@ -21,6 +14,9 @@ class ViewController: UIViewController, UITextFieldDelegate,
         
         // Handle the text field’s user input through delegate callbacks.
         nameTextField.delegate = self
+    }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
     
     //MARK: UITextFieldDelegate
