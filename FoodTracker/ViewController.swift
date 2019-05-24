@@ -11,8 +11,12 @@ class ViewController: UIViewController, UITextFieldDelegate,
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let today = NSDate()
+        print(today)
+        
         
         // Handle the text field’s user input through delegate callbacks.
+        
         nameTextField.delegate = self
     }
     override func didReceiveMemoryWarning() {
